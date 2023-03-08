@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="myimg">
+    <img src="wall.jpg" height="250" >
+</div>
+    <button class="show">Show</button>
+    <button class="hide">Hide</button>
+
+    <script>
+        $(document).ready(function(){
+            $(".show").click(function(){
+                $(".myimg").show();
+            })
+            $(".hide").click(function(){
+                $(".myimg").hide();
+            })
+        })
+    </script>
+</body>
+</html>
